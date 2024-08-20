@@ -1,0 +1,21 @@
+{
+  "name": "autobus",
+  "version": "0.0.1",
+  "description": "Онлайн расписание автобусов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bus",
+    "leskin"
+  ],
+  "type": "module",
+  "author": "Leskin Maksim [Maksim.Leskin@methed.ru]",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "luxon": "^3.5.0"
+  }
+}
