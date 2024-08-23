@@ -59,7 +59,6 @@ const getNextDeparture = (firstDepartureTime, frequencyMinutes) => {
 
 const sendUpdatedData = async () => {
   const buses = await loadBuses();
-  console.log("buses: ", buses);
   const now = DateTime.now().setZone(timeZone);
 
   const updatedBuses = buses.map((bus) => {
